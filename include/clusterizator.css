@@ -1,0 +1,95 @@
+
+.admin {
+    display: none;
+}
+
+.notadmin {
+    display: inline;
+}
+
+.logged {
+    display: none;
+}
+
+.notlogged {
+    display: inline;
+}
+
+.clu_hidden { display: none; }
+
+.clu_unhidden { display: inline; }
+
+
+/* This should be moved to specific hidden boxes and 
+   specific list csss */
+
+/* Hidden boxes */
+
+.hidden { display: none; }
+
+.unhidden { display: inline; }
+
+div.hidden-box {
+    display: table-cell;
+    vertical-align: middle;
+    background-color: DarkKhaki;
+    color: DarkRed ;
+}
+
+#sliding_box {
+    height: 550px;
+    width: 550px;
+}
+
+#circular_box {
+    height: 550px;
+    width: 550px;
+}
+
+/* Body */
+
+body  { 
+    font: 88%/1.2  Verdana, "Lucida Grande", "Lucida Sans", Tahoma, sans-serif;
+    color: black;
+    max-width:960px
+}
+
+p.center {
+    text-align: center;
+}
+
+
+/* Image classes */
+
+img.center {   display: block;
+	       align: center;
+	       margin-left: auto;
+	       margin-right: auto;
+	   }
+
+img.naturalsize {
+    height: auto;
+    width: auto;
+}
+
+img.graceplot {	
+/*    height: 408px; */
+    width: 528px;
+}
+
+/* Home page */
+#geno-logo{
+    float: left;
+    align: left;
+}
+
+#big-title {
+    width: 960px;
+    text-align: left;
+/*    float: left; */
+}
+
+#custerizatorcontent {
+    text-align: justify;
+    max-width: 960px;
+}

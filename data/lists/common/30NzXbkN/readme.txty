@@ -1,0 +1,8 @@
+# TITLE
+FIS binding from ChIP-chip.
+
+# DESCRIPTION
+List of gene targets for the binding of the nucleoid associated protein FIS across the E. coli genome in vivo, obtained using chromatin immunoprecipitation and high-density microarrays. To facilitate microarray analysis, DNA fragments collected from the aqueous phase were labelled with Cy5, whilst non-partitioned total DNA was Cy3-labelled as a control. The Cy5-labelled sample was mixed with the control Cy3-labelled sample and hybridized to the microarray. The Cy5/Cy3 intensity ratio was calculated for each spot and plotted against the corresponding position on the E.coli MG1655 chromosome. A cut-off was chosen and all probes that had an intensity ratio greater than this value in both experiments were selected as a target. Adjacent target probes were merged, the target position being defined by centre of the probe with the highest average intensity ratio.  
+
+# REFERENCES
+D. C. Grainger et al,  "Association of nucleoid proteins with coding and non-coding segments of the Escherichia coli genome", Nucleic Acids Research 34, No. 16, 4642 (2006).

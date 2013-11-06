@@ -1,0 +1,14 @@
+
+#synonim_box {
+    width: 800px;
+}
+
+.basicinfo {
+    font-style:italic;
+}
+
+.broken_gene {
+    font-weight: bold;
+    display: block;
+    padding-left: 20px;
+}

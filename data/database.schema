@@ -1,0 +1,42 @@
+CREATE TABLE "genomes" (
+  "rec_id" INTEGER PRIMARY KEY AUTOINCREMENT,
+  "code" varchar(8) DEFAULT NULL,
+  "title" varchar(40) DEFAULT NULL),
+  "directory" varchar(40) DEFAULT NULL,
+  "job_id" int(11) DEFAULT NULL
+);
+CREATE TABLE "jobs" (
+  "rec_id" INTEGER PRIMARY KEY AUTOINCREMENT,
+  "start" datetime DEFAULT NULL,
+  "stop" datetime DEFAULT NULL,
+  "email" varchar(80) DEFAULT NULL,
+  "exit_code" tinyint(4) DEFAULT NULL
+);
+CREATE TABLE "lists" (
+  "rec_id" INTEGER PRIMARY KEY AUTOINCREMENT,
+  "code" varchar(8) DEFAULT NULL,
+  "directory" varchar(128) DEFAULT NULL,
+  "title" varchar(128) DEFAULT NULL,
+  "dir" varchar(128) DEFAULT NULL,
+  "sid" varchar(40) DEFAULT NULL,
+  "genome" int(11) DEFAULT NULL,
+  "job_id" int(11) DEFAULT NULL,
+  "user_id" int(11) DEFAULT NULL
+);
+CREATE TABLE "users" (
+  "rec_id" INTEGER PRIMARY KEY AUTOINCREMENT,
+  "user" varchar(80) DEFAULT NULL,
+  "pass" varchar(12) DEFAULT NULL,
+  "privilege" int(11) DEFAULT NULL
+);
+CREATE INDEX "lists_rec_id" ON "lists" ("rec_id");
+CREATE INDEX "lists_genome" ON "lists" ("genome");
+CREATE INDEX "lists_job_id" ON "lists" ("job_id");
+CREATE INDEX "lists_user_id" ON "lists" ("user_id");
+CREATE INDEX "jobs_rec_id" ON "jobs" ("rec_id");
+CREATE INDEX "users_rec_id" ON "users" ("rec_id");
+CREATE INDEX "genomes_rec_id" ON "genomes" ("rec_id");
+CREATE INDEX "genomes_job_id" ON "genomes" ("job_id");
+
+INSERT INTO users (user, privilege) VALUES ("common", 100);
+INSERT INTO users (user, privilege) VALUES ("guest", 100);

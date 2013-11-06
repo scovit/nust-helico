@@ -1,0 +1,19 @@
+
+/* Hidden boxes */
+
+.sliding-hidden { display: none; }
+
+.sliding-unhidden {
+    display: block;
+}
+
+.sliding-box {
+    display: table-cell;
+    vertical-align: middle;
+    background-color: DarkKhaki;
+    color: DarkRed ;
+    width: 700px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

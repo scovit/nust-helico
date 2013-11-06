@@ -1,0 +1,19 @@
+
+#normalizebox {
+    display: inline;
+    background-color: #C8B560;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+}
+
+.killbutton {
+    font-size: 80%;
+}
+
+.colorchooser {
+    width: 72px;
+    font-size: 80%;
+    background-color: #0000FF;
+    foreground-color: #FFFFFF;
+}

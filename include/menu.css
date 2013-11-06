@@ -1,0 +1,42 @@
+.menu-box {
+    background-color: #736AFF;
+    color: white;
+    font-size: 140%;
+    display: table-cell;
+    vertical-align: middle;
+    height: 48px;
+    width: 960px;
+    padding: 5px;
+}
+
+.menu {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.loginField {
+    border: 1px solid;
+    font: 100% Tahoma, Verdana, sans-serif;
+}
+
+#login-panel{
+    font: 50%/0.3  Verdana, "Lucida Grande", "Lucida Sans", Tahoma, sans-serif;
+    padding-left: 20px;
+    display: table-cell;
+    vertical-align: middle;
+    height: 48px;
+    overflow: hidden;
+}
+
+#menuusername {
+    font-weight:bold;
+}
+
+#usererror {
+/*    color: DarkBlue;*/
+}
+
+a.menulink:link {color: white; text-decoration: none; }
+a.menulink:visited {color: white; text-decoration: none; }
+a.menulink:hover {color: white; text-decoration: underline; }
+a.menulink:active {color: white; }

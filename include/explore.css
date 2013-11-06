@@ -1,0 +1,135 @@
+.listField {
+    border: 1px solid;
+    color: #736AFF;
+    background-color: Pink;
+    font: 100% Tahoma, Verdana, sans-serif;
+}
+
+#box-file-pers-slid label {
+    display:block;
+    text-align:right;
+    width: 280px;
+    float:left;
+}
+
+#cb-box-file-pers-slid {
+    display:table-cell;
+}
+
+#cb-box-file-pers-slid label {
+    display:inline;
+    text-align:left;
+    width:auto;
+    float:none;
+}
+
+#box-file-pers-slid form {
+    padding-top: 10px;
+}
+
+#upload-pers-target {
+    display: none;
+    width: 500px;
+}
+
+#box-inter-pers-slid form {
+    padding-top: 10px;
+}
+
+#box-inter-pers-slid label {
+    display:block;
+    text-align:right;
+    width:280px;
+    float:left;
+}
+
+#sl1-form-box-inter-pers-slid {
+    width:382px;
+}
+
+#sl2-form-box-inter-pers-slid {
+    width:382px;
+}
+
+#hyp-box-inter-pers-slid {
+    color: black;
+}
+
+#box-file-comm-slid label {
+    display:block;
+    text-align:right;
+    width:280px;
+    float:left;
+}
+
+#cb-box-file-comm-slid {
+    display:table-cell;
+}
+
+#cb-box-file-comm-slid label {
+    display:inline;
+    text-align:left;
+    width:auto;
+    float:none;
+}
+
+#box-file-comm-slid form {
+    padding-top: 10px;
+}
+
+
+#box-inter-comm-slid form {
+    padding-top: 10px;
+}
+
+#box-inter-comm-slid label {
+    display:block;
+    text-align:right;
+    width:280px;
+    float:left;
+}
+
+#sl1-form-box-inter-comm-slid {
+    width:382px;
+}
+
+#sl2-form-box-inter-comm-slid {
+    width:382px;
+}
+
+#hyp-box-inter-comm-slid {
+    color: black;
+}
+
+#upload-comm-target {
+    display: none;
+    width: 500px;
+}
+
+.hypresult {
+    display: inline-block;
+    vertical-align: top;
+}
+
+a.list-anchor:link {color: black; text-decoration: none; }
+a.list-anchor:visited {color: black; text-decoration: none; }
+a.list-anchor:hover {color: black; text-decoration: underline; }
+a.list-anchor:active {color: black; }
+
+a.list-anchor img { 
+    display: block;
+    float: left;
+    border: none;
+    margin-right: 4px;
+}
+
+.list-text {
+    display: block;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.dirname {
+    font-weight:bold;
+}

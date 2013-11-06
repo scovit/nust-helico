@@ -1,0 +1,11 @@
+The job id is 724
+Executing graficatore/cluster.sh with NUMRAND=10000,
+LISTDIR=data/lists/common/RWto7jZv
+and GENOMEDIR=data/genomes/K12
+4600
+4639652
+616
+/tmp/tmp.aO6qIe049D
+PDFCROP 1.20, 2009/10/06 - Copyright (c) 2002-2009 by Heiko Oberdiek.
+==> 1 page written on `data/lists/common/RWto7jZv/cluster/result.pdf'.
+The return value is 0

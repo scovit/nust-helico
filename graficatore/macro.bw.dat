@@ -1,0 +1,15 @@
+#	Boccard macrodomains
+ori	0	3.76	0.05	url(#divide)
+right	0	0.60	1.21	url(#slash)
+ter	0	1.21	2.18	url(#thincross)
+left	0	2.18	2.88	grey
+nsright	0	0.05	0.60	none
+nsleft	0	2.88	3.76	none
+#	Carbone macrodomains
+A	1	3.5946	0.5896	url(#divide)
+B	1	2.970	3.575	none
+C	1	2.271	2.864	grey
+D	1	2.033	2.160	url(#thindivide)
+E	1	1.545	1.974	url(#thincross)
+F	1	1.402	1.489	url(#thinslash)
+G	1	0.679	1.329	url(#slash)

@@ -1,0 +1,16 @@
+
+img.sliderback {
+height:24px;
+width:192px;
+vertical-align: middle;
+position:relative;
+left:-12px;
+}
+
+img.sliderbullet {
+height:24px;
+width:24px;
+vertical-align: middle;
+position: relative;
+left:0px;
+}

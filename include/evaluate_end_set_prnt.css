@@ -1,0 +1,17 @@
+
+.href-template {
+    display: none;
+}
+
+a.template-href {
+    display: inline;
+}
+
+form.template-href {
+    display: block;
+}
+
+img.template-href {
+    display: inline;
+}
+

@@ -1,0 +1,17 @@
+
+.synonimtool {
+    width: 650px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #A2CD5A;
+    color: #8B0000;
+    text-align: left;
+}
+
+.broken_gene {
+    font-weight: bold;
+    display: block;
+    padding-left: 20px;
+}
+

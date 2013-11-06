@@ -1,0 +1,132 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="12cm" height="12cm"
+  viewBox="-600 -600 1200 1200"
+  version="1.1" xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+  <desc>Graph with clusters and macrodomains</desc>
+
+  <path d="M-278.664,-111.113
+  A 300,300 5.0918 0,1 20.2975,-299.313
+  L 22.3273,-329.244
+  A 330,330 0.0677102 0,0 -306.531,-122.225
+  z"
+fill="green" stroke="black" stroke-width="5" />
+  <path d="M217.807,-206.301
+  A 300,300 0.812522 0,1 299.311,20.3213
+  L 329.242,22.3535
+  A 330,330 1.63859 0,0 239.588,-226.931
+  z"
+fill="red" stroke="black" stroke-width="5" />
+  <path d="M299.311,20.3213
+  A 300,300 1.63859 0,1 56.4895,294.634
+  L 62.1385,324.097
+  A 330,330 2.95216 0,0 329.242,22.3535
+  z"
+fill="cyan" stroke="black" stroke-width="5" />
+  <path d="M56.4895,294.634
+  A 300,300 2.95216 0,1 -206.353,217.758
+  L -226.988,239.534
+  A 330,330 3.90011 0,0 62.1385,324.097
+  z"
+fill="blue" stroke="black" stroke-width="5" />
+  <path d="M20.2975,-299.313
+  A 300,300 0.0677102 0,1 217.807,-206.301
+  L 239.588,-226.931
+  A 330,330 0.812522 0,0 22.3273,-329.244
+  z"
+fill="none" stroke="black" stroke-width="5" />
+  <path d="M-206.353,217.758
+  A 300,300 3.90011 0,1 -278.664,-111.113
+  L -306.531,-122.225
+  A 330,330 5.0918 0,0 -226.988,239.534
+  z"
+fill="none" stroke="black" stroke-width="5" />
+  <path d="M-237.107,-37.1533
+  A 240,240 4.86782 0,1 171.904,-167.478
+  L 189.095,-184.226
+  A 264,264 0.798438 0,0 -260.817,-40.8686
+  z"
+fill="green" stroke="black" stroke-width="5" />
+  <path d="M-185.037,152.844
+  A 240,240 4.02198 0,1 -238.009,-30.8475
+  L -261.81,-33.9323
+  A 264,264 4.84128 0,0 -203.541,168.128
+  z"
+fill="orange" stroke="black" stroke-width="5" />
+  <path d="M15.8756,239.474
+  A 240,240 3.0754 0,1 -161.269,177.742
+  L -177.396,195.516
+  A 264,264 3.87844 0,0 17.4632,263.422
+  z"
+fill="blue" stroke="black" stroke-width="5" />
+  <path d="M90.9115,222.115
+  A 240,240 2.7531 0,1 51.5582,234.397
+  L 56.714,257.836
+  A 264,264 2.92508 0,0 100.003,244.327
+  z"
+fill="purple" stroke="black" stroke-width="5" />
+  <path d="M208.104,119.553
+  A 240,240 2.09224 0,1 108.349,214.151
+  L 119.184,235.566
+  A 264,264 2.6732 0,0 228.914,131.508
+  z"
+fill="cyan" stroke="black" stroke-width="5" />
+  <path d="M227.221,77.2699
+  A 240,240 1.89859 0,1 216.563,103.443
+  L 238.22,113.787
+  A 264,264 2.01641 0,0 249.943,84.9969
+  z"
+fill="maroon" stroke="black" stroke-width="5" />
+  <path d="M190.872,-145.492
+  A 240,240 0.919504 0,1 233.738,54.4669
+  L 257.112,59.9135
+  A 264,264 1.79974 0,0 209.959,-160.041
+  z"
+fill="red" stroke="black" stroke-width="5" />
+  <path d="M 0 0
+  L -355.294,-58.0189
+  A 360,360 -1.40893 1,1 105.054,344.331
+  z"
+  fill="red" stroke="black" stroke-width="2"
+  opacity="0.285714"    />
+  <path d="M 0 0
+  L 146.409,-319.007
+  A 351,351 0.430274 0,1 301.762,179.278
+  z"
+  fill="red" stroke="black" stroke-width="2"
+  opacity="0.428571"    />
+  <path d="M 0 0
+  L 326.343,-102.295
+  A 342,342 1.26704 0,1 297.708,168.327
+  z"
+  fill="red" stroke="black" stroke-width="2"
+  opacity="0.571429"    />
+  <path d="M 0 0
+  L 288.084,-167.023
+  A 333,333 1.04538 0,1 290.487,-162.807
+  z"
+  fill="red" stroke="black" stroke-width="2"
+  opacity="0.714286"    />
+  <path d="M 0 0
+  L 281.781,-159.922
+  A 324,324 1.05459 0,1 282.515,-158.624
+  z"
+  fill="red" stroke="black" stroke-width="2"
+  opacity="0.857143"    />
+  <path d="M 0 0
+  L 249.23,192.639
+  A 315,315 2.22882 0,1 248.487,193.596
+  z"
+  fill="red" stroke="black" stroke-width="2"
+  opacity="1"    />
+  <text x="-315.789" y="-315.789"
+  font-family="Helvetica" font-size="55" fill="black" >
+  OriC
+  </text>
+  <text x="315.789" y="315.789"
+  font-family="Helvetica" font-size="55" fill="black" >
+  Ter
+  </text>
+</svg>
