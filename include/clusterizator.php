@@ -1,6 +1,8 @@
 <?php
-$rootdir="/var/www/nust";
-$webdir="/nust";
+$rootdir="/var/www/scolari/nust";
+$webdir="/scolari/nust";
+$domainname="www.lgm.upmc.fr";
+$cookieID="nustID";
 chdir($rootdir);
 $javascripts = NULL;
 $csss = NULL;
@@ -20,12 +22,14 @@ function save_session_file() {
 function set_the_cookie() {
   global $session;
   global $webdir;
+  global $cookieID;
+  global $domainname;
   $tmpname = exec("mktemp data/sessions/XXXXXXXXXXXXXXXX");
   $sid = explode("/", $tmpname);
   $sid = $sid[2];
   // Set a cookie for the next 24 hours
-  setcookie("nucleoidID", $sid, time()+86400, $webdir);
-  $_COOKIE["nucleoidID"] = $sid;
+  setcookie($cookieID, $sid, time()+86400, $webdir, $domainname);
+  $_COOKIE[$cookieID] = $sid;
   // Compile the basic session data
   $session = array(
 		   'sid' => $sid,
@@ -42,11 +46,12 @@ function set_the_cookie() {
 
 function initialize_session() {
   global $session;
+  global $cookieID;
   // If there not a session, start a new one
-  if (!isset($_COOKIE["nucleoidID"])) {
+  if (!isset($_COOKIE[$cookieID])) {
     $sid = set_the_cookie();
   } else {
-    $sid = $_COOKIE["nucleoidID"];
+    $sid = $_COOKIE[$cookieID];
   }
 
   // Load the basic session data
@@ -63,7 +68,8 @@ function initialize_session() {
 
 function destroy_session() {
   global $webdir;
-  setcookie("nucleoidID", "", time()-3600, $webdir);
+  global $cookieID;
+  setcookie($cookieID, "", time()-3600, $webdir);
 }
 
 initialize_session();
