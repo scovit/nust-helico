@@ -69,7 +69,8 @@ function initialize_session() {
 function destroy_session() {
   global $webdir;
   global $cookieID;
-  setcookie($cookieID, "", time()-3600, $webdir);
+  global $domainname;
+  setcookie($cookieID, "", time()-3600, $webdir, $domainname);
 }
 
 initialize_session();
